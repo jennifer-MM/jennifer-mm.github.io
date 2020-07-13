@@ -1,15 +1,45 @@
+* {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    /*outline: 1px solid purple;*/
+    background-color: peachpuff;
+}
 
-:root{
-    --font-primary: "Trebuchet MS", Helvetica, sans-serif;
-    --font-secondary: serif;
-}
-h1 {
-    color: darkblue;
-}
 body {
-    color: peachpuff;
+    color: black;
     background: radial-gradient(<gradient values>) 
 }
-* {
-    outline: 1px solid purple;
+
+.navGrid {
+    height: 100px;
+    padding: 0px, 0px, 0px, 0px;
+}
+li {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    /*text-align: right;*/
+} 
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+.span-col-3{grid-column: span 3 / auto;}
+
+.span-col-6{grid-column: span 6 / auto;}
+
+.span-row-2{grid-row: span 2 / auto;}
+
+.span-row-3{grid-row: span 3 / auto;}
+
+#intro {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+#mainPoint{
+    color: navy
 }
