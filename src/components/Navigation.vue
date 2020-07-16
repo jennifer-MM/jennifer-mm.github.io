@@ -1,6 +1,6 @@
 <template>
   <div class id="nav">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fix-top">
+    <nav class="navbar navbar-expand-lg bg-primary fix-top">
       <button
         class="navbar-toggler"
         type="button"
@@ -35,11 +35,16 @@
 </template>
 
 <style scoped>
-.fix-top {
-  background-color: navy;
-  margin-top: -63px;
+
+nav{
+  background-color: greenyellow;
 }
-#nav {
-  background-color: navy;
+.fix-top {
+  margin-top: -63px;
+  background-color: black;
+}
+
+#navbarTogglerDemo03{
+  background-color: pink;
 }
 </style>

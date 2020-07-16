@@ -6,19 +6,21 @@
                 <img alt="Vue logo" class="rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Woman_1.jpg/220px-Woman_1.jpg">
                 <h1>Hello, I'm Jennifer</h1>
                 <p>Front-end web developer, Freelancer</p>
+                <!--<div id="contact-form">
+                    <button v-on:click="showContact">Get in touch</button>
+                </div>-->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-lg">Get in touch</button>
-                
             </div>
         </section>
 
         <!-- about me section -->
 
          <section class="about">
-            <div class="container-fliud">
-                <h1>I'm a front-end web developer, Syracuse based who loves simple and accessible design.</h1>
-                <p>I work with HTML, CSS, and JS-- Searching to work with teams doing good by helping people.</p>
-                
-                
+             <div class="col-md-12">
+                <div class="container-fliud">
+                    <h1>I'm a front-end web developer, Syracuse based who loves simple and accessible design.</h1>
+                    <p>I work with HTML, CSS, and JS-- Searching to work with teams doing good by helping people.</p>
+                </div>
             </div>
         </section>
 
@@ -104,13 +106,24 @@
 </template>
 
 <script lang="ts">
-import Contact from './Contact.vue'
+import Contact from './Contact.vue';
+
 export default {
     name:'Lander',
     components:{
         Contact
-    }  
+    }
+    //name: 'Lander',
+    //data () {
+      //  return {
+        //    Components:{
+          //      Contact
+            //}
+        //}
+    //}  
 }
+
+
 </script>
 
 <style lang="css" scoped>
@@ -119,7 +132,8 @@ export default {
         padding-bottom: 10%;
     }
     .protfolio{
-        background-color: #34345238;
+        background-color: #46AFB9;
+        color: #F5E4C3;
         padding-top: 8%;
         padding-bottom: 15%;
         /* padding:15% */
@@ -132,6 +146,20 @@ export default {
     h1 {
     font-family: 'Yeseva One';
     src: url('https://fonts.googleapis.com/css?family=Roboto|Yeseva+One&display=swap');
+    }
+
+    .about {
+        background-color: #DF8C95;
+        color: #184C51;
+        text-align: center;
+      
+    }
+    .container-fliud{
+        margin-left: 10px;
+    }
+
+    .nav{
+        background-color: #F5E4C3;
     }
     
 </style>
