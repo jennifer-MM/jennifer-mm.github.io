@@ -23,6 +23,13 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+Portfolio includes:
+https://github.com/jennifer-MM/wats4000-final-project
+
+https://github.com/jennifer-MM/wats3020-browser-game
+
+https://github.com/jennifer-MM/user-science
+
 46AFB9 - 184C51 - F5E4C3 - DF8C95 - 532A31
 
 FFEBCF - F1D1B5 - F0B7A4 - F18C8E - 305F72

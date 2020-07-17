@@ -54,7 +54,7 @@
                             <div class="card">
                                 <div class="card-head">
                                     <img alt="Vue logo" class="rounded-circle img-custome" src="https://i.pinimg.com/originals/4a/70/56/4a70563234301578c158dc142384a1c3.png">
-                                    <h2>web project</h2>
+                                    <h2>Working with APIs</h2>
                                 </div>
                                 <hr>
                                 <div class="card-body">
@@ -72,8 +72,8 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-head">
-                                <img alt="Vue logo" class="rounded-circle img-custome" src="https://cdn.mos.cms.futurecdn.net/wH5y2PkWhCxqKBje8rBp5e.jpg">
-                                <h2>web project</h2>
+                                <img alt="Screenshot, web project" class="rounded-circle img-custome" src="src/assets/user-blog.png">
+                                <h2>Usability project</h2>
                             </div>
                             <hr>
                             <div class="card-body">
@@ -82,7 +82,7 @@
                                     Nullam id dolor id nibh ultricies vehicula ut id elit. 
                                     Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
                                 </p>
-                                <button type="button" class="btn btn-outline-secondary">More</button>
+                                <button type="button" class="btn btn-outline-secondary"><a href="https://github.com/jennifer-MM/user-science">More</a></button>
                             </div>
                         </div>
                     </div>
@@ -153,6 +153,10 @@ export default {
         color: #184C51;
         text-align: center;
       
+    }
+
+    .card {
+        background-color: #DF8C95;
     }
     .container-fliud{
         margin-left: 10px;
